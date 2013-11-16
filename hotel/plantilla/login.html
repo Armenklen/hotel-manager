@@ -1,0 +1,8 @@
+{% extends "base.html"%}
+{% block container %}
+		<form action="" method="post">
+			{% csrf_token %}
+			{{form.as_ul}}
+			<input type="submit" value="Entrar"/>
+		</form>
+{%endblock%}
