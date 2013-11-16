@@ -23,6 +23,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'hotel.apps.registro',
+    'hotel.apps.habitaciones',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -47,7 +48,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'hotel',
         'USER':'root',
-        'PASSWORD':''
+        #'PASSWORD':''
     }
 }
 
